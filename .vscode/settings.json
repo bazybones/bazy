@@ -2,5 +2,5 @@
     "diffEditor.hideUnchangedRegions.revealLineCount": 15,
     "html.format.wrapLineLength": 25,
     "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 65
+    "editor.wordWrapColumn": 85
 }

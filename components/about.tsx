@@ -19,9 +19,8 @@ export default function about() {
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        problem-solving aspect. I <span className="">❤️</span> the feeling of
+        finally figuring out a solution to a problem. My core stack is{" "}
         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB
         </span>
