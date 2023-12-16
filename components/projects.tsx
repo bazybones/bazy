@@ -7,7 +7,10 @@ import Project from "./project";
 
 export default function Projects() {
   return (
-    <section className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40">
+    <section
+      id="projects"
+      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+    >
       <SectionHeading>My Projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
