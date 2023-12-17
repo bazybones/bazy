@@ -2,13 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import technoVerse from "@/public/Design.png";
-import grace from "@/public/Grace.png";
-import neev from "@/public/neev.png";
-import { SiTypescript } from "react-icons/si";
-import { BiLogoJavascript } from "react-icons/bi";
-import { FaLess } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
+import corpcommentImg from "@/public/Technoverse.png";
+import rmtdevImg from "@/public/Grace.png";
+import wordanalyticsImg from "@/public/neev.png";
 
 export const links = [
   {
@@ -59,84 +55,32 @@ export const experiencesData = [
     location: "Houston, TX",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaReact, { color: "#61dbfb" }),
     date: "2021 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "TechnoVerse",
+    title: "CorpComment",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: technoVerse,
-    icons: [
-      {
-        tag: "React",
-        icon: React.createElement(FaReact, { size: "18px", fill: "#61dbfb" }),
-      },
-      {
-        tag: "JavaScript",
-        icon: React.createElement(BiLogoJavascript, {
-          size: "18px",
-          fill: "black",
-          backgroundColor: "black",
-        }),
-      },
-      {
-        tag: "Less",
-        icon: React.createElement(FaLess, { size: "20px", fill: "#1d365d" }),
-      },
-      {
-        tag: "Redux",
-        icon: React.createElement(SiRedux, {
-          size: "18px",
-          fill: "#764abc",
-          backgroundColor: "#ffffff",
-        }),
-      },
-    ],
+    imageUrl: corpcommentImg,
   },
   {
-    title: "GRACE",
+    title: "rmtDev",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: grace,
-    icons: [
-      {
-        tag: "React",
-        icon: React.createElement(FaReact, { size: "18px", fill: "#61dbfb" }),
-      },
-      {
-        tag: "Typescript",
-        icon: React.createElement(SiTypescript, {
-          size: "18px",
-          fill: "#007acc",
-        }),
-      },
-    ],
+    imageUrl: rmtdevImg,
   },
   {
-    title: "NEEV",
+    title: "Word Analytics",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: neev,
-    icons: [
-      {
-        tag: "React",
-        icon: React.createElement(FaReact, { size: "18px", fill: "#61dbfb" }),
-      },
-      {
-        tag: "Typescript",
-        icon: React.createElement(SiTypescript, {
-          size: "18px",
-          fill: "#007acc",
-        }),
-      },
-    ],
+    imageUrl: wordanalyticsImg,
   },
 ] as const;
 
